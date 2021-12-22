@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="资源文件\Dictionary">
+      <UniqueIdentifier>{343911a5-445e-40eb-81dd-6fb77e62c025}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ElectronicDictionary-RBT.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Dictionary\!lack.txt">
+      <Filter>资源文件\Dictionary</Filter>
+    </Text>
+    <Text Include="..\Dictionary\A.txt">
+      <Filter>资源文件\Dictionary</Filter>
+    </Text>
+    <Text Include="..\Dictionary\B.txt">
+      <Filter>资源文件\Dictionary</Filter>
+    </Text>
+    <Text Include="..\Dictionary\C.txt">
+      <Filter>资源文件\Dictionary</Filter>
+    </Text>
+    <Text Include="..\Dictionary\D.txt">
+      <Filter>资源文件\Dictionary</Filter>
+    </Text>
+    <Text Include="..\Dictionary\E.txt">
+      <Filter>资源文件\Dictionary</Filter>
+    </Text>
+    <Text Include="..\Dictionary\F.txt">
+      <Filter>资源文件\Dictionary</Filter>
+    </Text>
+    <Text Include="..\Dictionary\G.txt">
+      <Filter>资源文件\Dictionary</Filter>
+    </Text>
+    <Text Include="..\Dictionary\H.txt">
+      <Filter>资源文件\Dictionary</Filter>
+    </Text>
+    <Text Include="..\Dictionary\I.txt">
+      <Filter>资源文件\Dictionary</Filter>
+    </Text>
+    <Text Include="..\Dictionary\J.txt">
+      <Filter>资源文件\Dictionary</Filter>
+    </Text>
+    <Text Include="..\Dictionary\K.txt">
+      <Filter>资源文件\Dictionary</Filter>
+    </Text>
+    <Text Include="..\Dictionary\L.txt">
+      <Filter>资源文件\Dictionary</Filter>
+    </Text>
+    <Text Include="..\Dictionary\M.txt">
+      <Filter>资源文件\Dictionary</Filter>
+    </Text>
+    <Text Include="..\Dictionary\N.txt">
+      <Filter>资源文件\Dictionary</Filter>
+    </Text>
+    <Text Include="..\Dictionary\O.txt">
+      <Filter>资源文件\Dictionary</Filter>
+    </Text>
+    <Text Include="..\Dictionary\P.txt">
+      <Filter>资源文件\Dictionary</Filter>
+    </Text>
+    <Text Include="..\Dictionary\Q.txt">
+      <Filter>资源文件\Dictionary</Filter>
+    </Text>
+    <Text Include="..\Dictionary\R.txt">
+      <Filter>资源文件\Dictionary</Filter>
+    </Text>
+    <Text Include="..\Dictionary\S.txt">
+      <Filter>资源文件\Dictionary</Filter>
+    </Text>
+    <Text Include="..\Dictionary\T.txt">
+      <Filter>资源文件\Dictionary</Filter>
+    </Text>
+    <Text Include="..\Dictionary\U.txt">
+      <Filter>资源文件\Dictionary</Filter>
+    </Text>
+    <Text Include="..\Dictionary\V.txt">
+      <Filter>资源文件\Dictionary</Filter>
+    </Text>
+    <Text Include="..\Dictionary\W.txt">
+      <Filter>资源文件\Dictionary</Filter>
+    </Text>
+    <Text Include="..\Dictionary\X.txt">
+      <Filter>资源文件\Dictionary</Filter>
+    </Text>
+    <Text Include="..\Dictionary\Y.txt">
+      <Filter>资源文件\Dictionary</Filter>
+    </Text>
+    <Text Include="..\Dictionary\Z.txt">
+      <Filter>资源文件\Dictionary</Filter>
+    </Text>
+    <Text Include="..\test.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="..\testplus.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

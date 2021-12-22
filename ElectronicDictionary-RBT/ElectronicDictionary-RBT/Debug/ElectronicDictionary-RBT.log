@@ -1,0 +1,4 @@
+﻿  ElectronicDictionary-RBT.cpp
+C:\CurriculumDesign\ElectronicDictionary-RBT\ElectronicDictionary-RBT\ElectronicDictionary-RBT.cpp(392,20): warning C4018: “<”: 有符号/无符号不匹配
+C:\CurriculumDesign\ElectronicDictionary-RBT\ElectronicDictionary-RBT\ElectronicDictionary-RBT.cpp(435,20): warning C4018: “<”: 有符号/无符号不匹配
+  ElectronicDictionary-RBT.vcxproj -> C:\CurriculumDesign\ElectronicDictionary-RBT\Debug\ElectronicDictionary-RBT.exe
