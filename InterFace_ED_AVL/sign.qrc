@@ -1,5 +1,0 @@
-<RCC>
-    <qresource prefix="/sign">
-        <file>signbig.png</file>
-    </qresource>
-</RCC>
