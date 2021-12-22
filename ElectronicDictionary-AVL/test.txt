@@ -1,0 +1,6 @@
+abw 4
+acaa 2.5
+acab 2.6
+acd 3
+adc 1
+afw 5
