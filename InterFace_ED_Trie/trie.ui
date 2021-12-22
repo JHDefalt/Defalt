@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>trie</class>
+ <widget class="QMainWindow" name="trie">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>461</width>
+    <height>333</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>AVL</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>250</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>新宋体</family>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>清空</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>30</y>
+      <width>381</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>新宋体</family>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_3">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QLabel" name="label_3">
+         <property name="font">
+          <font>
+           <family>新宋体</family>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>英文单词</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEdit">
+         <property name="font">
+          <font>
+           <family>新宋体</family>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton">
+         <property name="font">
+          <font>
+           <family>新宋体</family>
+           <pointsize>8</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>翻译</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="font">
+          <font>
+           <family>新宋体</family>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>汉语释义</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTextBrowser" name="textBrowser">
+         <property name="font">
+          <font>
+           <family>新宋体</family>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>461</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>其它(W)</string>
+    </property>
+    <addaction name="actionInsert"/>
+    <addaction name="separator"/>
+    <addaction name="actionDelete"/>
+    <addaction name="separator"/>
+    <addaction name="actionModify"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>文件(F)</string>
+    </property>
+    <addaction name="actionasd"/>
+    <addaction name="separator"/>
+    <addaction name="actiona"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>帮助(H)</string>
+    </property>
+    <widget class="QMenu" name="menu_4">
+     <property name="title">
+      <string>联系作者</string>
+     </property>
+     <addaction name="actiona_3"/>
+     <addaction name="actionyu"/>
+     <addaction name="actiona_4"/>
+    </widget>
+    <addaction name="actionc"/>
+    <addaction name="separator"/>
+    <addaction name="actionasd_2"/>
+    <addaction name="separator"/>
+    <addaction name="menu_4"/>
+   </widget>
+   <addaction name="menu_2"/>
+   <addaction name="menu"/>
+   <addaction name="menu_3"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionInsert">
+   <property name="text">
+    <string>插入单词    Ctrl+I</string>
+   </property>
+  </action>
+  <action name="actionDelete">
+   <property name="text">
+    <string>删除单词    Ctrl+D</string>
+   </property>
+  </action>
+  <action name="actionModify">
+   <property name="text">
+    <string>修改单词    Ctrl+M</string>
+   </property>
+  </action>
+  <action name="actionasd">
+   <property name="text">
+    <string>词典目录    Ctrl+F1</string>
+   </property>
+  </action>
+  <action name="actiona">
+   <property name="text">
+    <string>源码目录    Ctrl+F2</string>
+   </property>
+  </action>
+  <action name="actionc">
+   <property name="text">
+    <string>操作指南    F1</string>
+   </property>
+  </action>
+  <action name="actiona_3">
+   <property name="text">
+    <string>QQ:844191153</string>
+   </property>
+  </action>
+  <action name="actionyu">
+   <property name="text">
+    <string>邮箱:844191153@qq.com</string>
+   </property>
+  </action>
+  <action name="actiona_4">
+   <property name="text">
+    <string>电话:15848566846</string>
+   </property>
+  </action>
+  <action name="actionasd_2">
+   <property name="text">
+    <string>      关于    F2</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
